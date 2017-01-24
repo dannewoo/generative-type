@@ -2,7 +2,7 @@
 
 Processing examples and slides for generative type workshop at SDSU.
 
-For more information on using Processing for design projects check out my [creative coding class](http://creativecode.dannewoo.com/) syllabus.
+For more information on using Processing for design projects check out my [creative coding class](http://creativecode.dannewoo.com/) syllabus. Contact danne.woo@gmail.com if you have any questions.
 
 Helpful Links:
 *	[Processing](https://processing.org/)
