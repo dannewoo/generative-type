@@ -10,6 +10,7 @@
 // global variables - width and height
 // for loop
 // random
+// map color
 // String
 // Array String[] varName = {"Test"}
 // print pdf library
@@ -37,11 +38,12 @@ void setup() {
     //translate(w, h);
     //translate(200, 100);
     //rotate(PI/random(3));
-    if (w <= width - 100 &&  w >= 100) {
-      fill(255, 0, 0);
-    } else {
-      fill(0, 255, 0);      
-    }
+    //if (w <= width - 100 &&  w >= 100) {
+    //  fill(255, 0, 0);
+    //} else {
+    //  fill(0, 255, 0);      
+    //}
+    fill(map(w, 0, width, 0, 255), 0, 0);
     text(words[int(random(words.length))], w, h);
     //text(words[int(random(words.length))], 0, 0);
     //popMatrix();
