@@ -11,6 +11,7 @@ Helpful Links:
 *	[Generative Type Class Examples](http://generative-typografie.de/generativetypografie/about/)
 *	[Rune Madsen - Printing Code Syllabus](http://printingcode.runemadsen.com/#week-5-typography)
 *	[Rune Madsen - Programming Design Systems](https://programmingdesignsystems.com/)
+*	[Dan Shiffman Video Tutorials](https://vimeo.com/shiffman/videos)
 
 Suggested Reading:
 *	[Processing: A Programming Handbook for Visual Designers and Artists](https://www.amazon.com/Processing-Programming-Handbook-Designers-Artists/dp/0262182629)
