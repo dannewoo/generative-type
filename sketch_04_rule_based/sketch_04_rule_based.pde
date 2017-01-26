@@ -1,7 +1,19 @@
 int[][] letters = {
-{ 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1 }, //A
-{ 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0 }, //B
-{ 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1 }  //C
+{ 0, 1, 1, 0, 
+  1, 0, 0, 1, 
+  1, 1, 1, 1, 
+  1, 0, 0, 1, 
+  1, 0, 0, 1 }, //A
+{ 1, 1, 1, 0, 
+  1, 0, 0, 1, 
+  1, 1, 1, 0, 
+  1, 0, 0, 1, 
+  1, 1, 1, 0 }, //B
+{ 0, 1, 1, 1, 
+  1, 0, 0, 0, 
+  1, 0, 0, 0, 
+  1, 0, 0, 0, 
+  0, 1, 1, 1 }  //C
 };
 int blockSize = 20;
 void setup() {
@@ -9,8 +21,9 @@ void setup() {
   noStroke();
   background(255);
   fill(0);
-  // draw letters
+  // Center all letters on the canvas
   translate(width/2 - ((blockSize * 6)*3)/2, height/2 - (blockSize * 6)/2);
+  // draw letters
   for(int i = 0; i < letters.length; i++) {
      int xPos = 0, yPos = 0;
      // for each letter, draw pixel dots
