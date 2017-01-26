@@ -52,7 +52,7 @@ void draw(){
     beginShape();
     RPoint[] letter = grp.children[i].getPoints();
     for(int j = 0; j < letter.length; j++){
-      vertex(letter[j].x += (n*random(-0.01,0.01)), letter[j].y += (n*random(-0.01,0.01)));
+      curveVertex(letter[j].x += (n*random(-0.01,0.01)), letter[j].y += (n*random(-0.01,0.01)));
     }
     endShape();
   }
